@@ -26,6 +26,12 @@ You can follow same procedure in the official  AWS document [Getting started wit
    sudo mv /tmp/eksctl /usr/local/bin
    eksctl version
    ```
+2.1 Check the version 
+    
+    ```
+    export PATH=$PATH:/usr/local/bin/
+    ```
+
   
 3. Create an IAM Role and attache it to EC2 instance    
    `Note: create IAM user with programmatic access if your bootstrap system is outside of AWS`   
