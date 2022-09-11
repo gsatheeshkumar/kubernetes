@@ -40,6 +40,8 @@ You can follow same procedure in the official  AWS document [Getting started wit
    EC2   
    VPC    
    CloudFormation
+   
+   ```Note: seems to suggest that the user HR doesn't have all the necessary EKS permissions. Try (temporarily) attaching the HR user the AWS-managed AdministratorAccess policy. Then, if this resolves the issue, narrow it down to only EKS-related permissions.```
 
 4. Create your cluster and nodes 
    ```sh
